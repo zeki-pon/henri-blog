@@ -1,21 +1,34 @@
 ---
+const pageTitle = "このブログについて";
 
+const identity = {
+  firstName: "JHFENRI",
+  country: "日本",
+  occupation: "金融系SIerの技術職",
+  hobbies: ["野球観戦", "街歩き"]
+}
+
+const skllls = ["HTML", "CSS", "JavaScript", "Java", "Spring", "SQL"];
+
+const isHappy = true;
+const finished = false;
+const goal = 3;
 ---
 
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href="/">ホーム</a>
     <a href="/about/">概要</a>
     <a href="/blog/">ブログ</a>
 
-    <h1>このブログについて</h1>
+    <h1>{pageTitle}</h1>
     <h2>このブログは、Astroを使って作られています。</h2>
 
     <p>
@@ -25,5 +38,24 @@
     <p>
       Astroを使うと、コンポーネントベースの開発が可能になり、再利用性の高いコードを書くことができます。また、Astroはパフォーマンスに優れており、高速なウェブサイトを構築することができます。
     </p>
+
+    <p>自己紹介</p>
+    <ul>
+      <li>名前：{identity.firstName}</li>
+      <li>国：{identity.country}</li>
+      <li>職業：{identity.occupation}</li>
+      <li>趣味：{identity.hobbies.join(', ')}</li>
+    </ul>
+    <p>スキルセット</p>
+    <ul>
+      {skllls.map((skill) => (
+        <li>{skill}</li>
+      ))}
+    </ul>
+    
+    {isHappy && <p>継続して学べることは幸せなことです。</p>}
+    {finished && <p>チュートリアルは完了です。</p>}
+    {goal === 3 ? <p>できれば3日以内に終えたいです。</p> : <p>3日以内は無理かもしれない。</p>}
+
   </body>
 </html>
