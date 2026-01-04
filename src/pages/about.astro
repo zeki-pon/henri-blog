@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 
 const pageTitle = "このブログについて";
 
@@ -73,5 +74,6 @@ const textCase = "uppercase";
     {finished && <p>チュートリアルは完了です。</p>}
     {goal === 3 ? <p>できれば3日以内に終えたいです。</p> : <p>3日以内は無理かもしれない。</p>}
 
+    <Footer />
   </body>
 </html>
