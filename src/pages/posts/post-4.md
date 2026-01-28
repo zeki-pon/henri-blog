@@ -7,7 +7,7 @@ author: "jhfenri"
 image:
   url: "https://docs.astro.build/default-og-image.png"
   alt: "惑星と星のイラストの中にastroという単語があります"
-tags: ["astro", "success"]
+tags: ["astro", "成功"]
 ---
 
 記事のリストを作成するために`import.meta.glob()`がすべての記事データのリストを返しているので、この記事は他のブログ記事と一緒に表示されるはずです。
