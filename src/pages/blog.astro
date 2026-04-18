@@ -1,13 +1,20 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro"
+import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 
-const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true}));
-const pageTitle = "私の学習ブログ"
+const allPosts = Object.values(
+  import.meta.glob("./posts/*/*.md", { eager: true }),
+);
+const pageTitle = "Henriのナレッジ";
 ---
+
 <BaseLayout pageTitle={pageTitle}>
-    <p>ここには、私がAstroを学んでいく過程を投稿します。</p>
-    <ul>
-      {allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
-    </ul>
+  <p>ブログ一覧</p>
+  <ul>
+    {
+      allPosts.map((post: any) => (
+        <BlogPost url={post.url} title={post.frontmatter.title} />
+      ))
+    }
+  </ul>
 </BaseLayout>
