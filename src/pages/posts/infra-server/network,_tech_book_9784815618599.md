@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: "『体験しながら学ぶネットワーク技術入門』の学習メモ"
 pubDate: 2026-4-11
 description: "書籍を進めていくうえで必要と感じた事項をメモとして残します。"
