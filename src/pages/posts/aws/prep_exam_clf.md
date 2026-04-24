@@ -32,8 +32,9 @@ tags: ["AWS", "資格"]
 
 ---
 
-### 余裕があれば見ておく
+### その他リソース
 
+- 『AWSではじめるインフラ構築入門 第2版 安全で堅牢な本番環境のつくり方』
 - [【30日でAWSをマスターするハンズオン問題集】全問リスト](https://qiita.com/satosato_kozakana/items/973a17e002d422fa2194)
 - [AWS認定資格 無料問題集](https://aws.keepitup.jp/CL00/)
 - [Builder Labs: Introduction to AWS Cloud](https://skillbuilder.aws/learning-plan/JE1AJBF5ZP/introduction-to-aws-cloud-builder-labs-learning-plan-/6UA62AC372)
