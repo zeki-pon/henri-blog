@@ -43,5 +43,7 @@ tags: ["AWS", "資格"]
 - [AWS escape room](https://skillbuilder.aws/search?searchText=aws-escape-room-for-exam-prep-aws-certified-cloud-practitioner-clf-c02&showRedirectNotFoundBanner=true)
 - [AWS SimuLearn](https://skillbuilder.aws/learning-plan/EKHCUEWUUC/aws-simulearn-cloud-practitioner/1UQVR262ZB)
 - [AWS サービス別資料-AWS Black Belt Online Seminar](https://aws.amazon.com/jp/events/aws-event-resource/archive/?cards.sort-by=item.additionalFields.SortDate&cards.sort-order=desc&awsf.tech-category=*all)
+- [builders.flash](https://aws.amazon.com/jp/builders-flash/)
+- [DevelopersIO](https://dev.classmethod.jp/tags/aws/)
 
 ---
